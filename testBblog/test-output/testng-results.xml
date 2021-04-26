@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-26T13:14:56 EDT" name="Default suite" finished-at="2021-04-26T13:15:43 EDT" duration-ms="47549">
+    <groups>
+    </groups>
+    <test started-at="2021-04-26T13:14:56 EDT" name="Default test" finished-at="2021-04-26T13:15:43 EDT" duration-ms="47549">
+      <class name="testScripts.BblogTestcase">
+        <test-method is-config="true" signature="setsuite()[pri:0, instance:testScripts.BblogTestcase@65f095f8]" started-at="2021-04-26T13:14:53 EDT" name="setsuite" finished-at="2021-04-26T13:14:56 EDT" duration-ms="2991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setsuite -->
+        <test-method signature="loginBBlog()[pri:1, instance:testScripts.BblogTestcase@65f095f8]" started-at="2021-04-26T13:14:56 EDT" name="loginBBlog" finished-at="2021-04-26T13:15:08 EDT" duration-ms="11743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBBlog -->
+        <test-method signature="addArticle()[pri:2, instance:testScripts.BblogTestcase@65f095f8]" started-at="2021-04-26T13:15:08 EDT" name="addArticle" finished-at="2021-04-26T13:15:21 EDT" duration-ms="13326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addArticle -->
+        <test-method signature="UpdateArticle()[pri:3, instance:testScripts.BblogTestcase@65f095f8]" started-at="2021-04-26T13:15:21 EDT" name="UpdateArticle" finished-at="2021-04-26T13:15:30 EDT" duration-ms="9236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateArticle -->
+        <test-method signature="DeleteArticle()[pri:4, instance:testScripts.BblogTestcase@65f095f8]" started-at="2021-04-26T13:15:30 EDT" name="DeleteArticle" finished-at="2021-04-26T13:15:35 EDT" duration-ms="5053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteArticle -->
+        <test-method signature="logOut()[pri:5, instance:testScripts.BblogTestcase@65f095f8]" started-at="2021-04-26T13:15:35 EDT" name="logOut" finished-at="2021-04-26T13:15:43 EDT" duration-ms="8128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testScripts.BblogTestcase@65f095f8]" started-at="2021-04-26T13:15:43 EDT" name="teardown" finished-at="2021-04-26T13:15:44 EDT" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testScripts.BblogTestcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
