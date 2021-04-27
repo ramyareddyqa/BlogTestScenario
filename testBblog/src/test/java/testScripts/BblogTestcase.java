@@ -35,7 +35,7 @@ public class BblogTestcase {
 		System.out.println("Open Application");
 		driver.findElement(By.xpath(".//a[contains(text(),'Sign in')]")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.xpath(".//input[@placeholder='Username']")).sendKeys("ramyareddyqa@gmail.com");// 
+		driver.findElement(By.xpath(".//input[@placeholder='Username']")).sendKeys("ramyareddyqa@gmail.com");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath(".//input[@placeholder='Password']")).sendKeys("ramyareddyqa");
 		Thread.sleep(2000);
